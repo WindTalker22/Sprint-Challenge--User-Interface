@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -64,6 +65,28 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-items: baseline;
+    width: 95%;
+    padding-bottom: 30px;
+    margin-left: 25px;
+    font-size: 15px;
+    
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-img {
+    padding-bottom: 20px;
 }
 
 .container {
@@ -112,6 +135,48 @@ p {
     justify-content: center;
 }
 
+#box-one {
+    background-color: teal;
+}
+
+#box-two {
+    background-color: gold;
+}
+
+#box-three {
+    background-color: cadetblue;
+}
+
+#box-four {
+    background-color: coral;
+}
+
+#box-five {
+    background-color: crimson;
+}
+
+#box-six {
+    background-color: forestgreen;
+}
+
+#box-seven {
+    background-color: darkorchid;
+}
+
+#box-eight {
+    background-color: hotpink;
+}
+
+#box-nine {
+    background-color: indigo;
+}
+
+#box-ten {
+    background-color: dodgerblue;
+}
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +189,38 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* About Page Styling */
+
+.about {
+    margin: 70px;
+    align-items: center;
+    height: 250px;
+    border-bottom: 1px dotted black;
+}
+
+
+
+.img-section {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+   
+}
+
+
+
+
+
+
+button {
+    display: flex;
 }
 
 footer {
